@@ -19,7 +19,7 @@ def getResponseFromModel(user_input):
 st.title("Gemini Chatbot")
 
 # Get user input using a text input box
-user_input = st.text_input("Enter your Prompt here = ")
+user_input = st.text_input("Enter your Prompt here => ")
 
 if st.button("Get Response"):
     if user_input:
