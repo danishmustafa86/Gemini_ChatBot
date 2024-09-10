@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 # Get the API key from the environment
-API_KEY = os.getenv('API_KEY')
+API_KEY = os.getenv('AIzaSyD2O5nI0ToBrCkV2y95hifoP9lvP6g34k0')
 
 # Configure the API key
 genai.configure(api_key=API_KEY)
